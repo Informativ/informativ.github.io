@@ -7,4 +7,3 @@ while True:
     elif button_b.is_pressed():
         display.show(Image.SAD)
     display.clear()
-
