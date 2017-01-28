@@ -1,3 +1,5 @@
+from microbit import *
+
 tilt = 0
 while true:
     #vi setter variabelen tilt lik verdien til accelerometer.get_y().
