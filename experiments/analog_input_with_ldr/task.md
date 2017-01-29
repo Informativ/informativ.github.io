@@ -23,10 +23,11 @@ Det dette gjør er å sette `lysstyrke` til den analoge verdien av pin 0. Den an
 
 Nå kan vi bruke denne verdien til å sjekke om det kommer lys inn i sensoren!
 Sjekk om lysstyrke er større enn 512, og er den det så vis et bilde med `display.show(...)`, hvis ikke (med `else`) vis et annet bilde.
-`if testen-din:
+```python
+if testen-din:
   kode-som-skal-skje
 else:
-  kode-som-skal-skje`
+  kode-som-skal-skje
 
 
 `pin0.read_analog()` vil gi en verdi fra 0 til 1024, så pråv å forandre på verdien og sjekk hvordan dette endrer sensitiviteten på lyssensoren!
