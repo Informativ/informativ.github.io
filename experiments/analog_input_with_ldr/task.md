@@ -1,7 +1,7 @@
-# Lysmåler
+# LysmÃ¥ler
 
-I denne oppgaven skal vi bygge videre på det vi gjorde i [knappe-oppgaven](https://informativ.github.io/microbit-oppgaver/experiments/button_intro/task),
-men i steden for å bruke knapper skal vi bruke lys for å bytte bildet på skjermen!
+I denne oppgaven skal vi bygge videre pÃ¥ det vi gjorde i [knappe-oppgaven](https://informativ.github.io/microbit-oppgaver/experiments/button_intro/task),
+men i steden for Ã¥ bruke knapper skal vi bruke lys for Ã¥ bytte bildet pÃ¥ skjermen!
 
 ## Hva trenger du?
 
@@ -11,17 +11,17 @@ men i steden for å bruke knapper skal vi bruke lys for å bytte bildet på skjerme
 
 ## Hvordan
 
-Som i knappe-oppgaven trenger vi en uendelig løkke og `if`-tester,
-men i denne oppgaven skal vi også bruke variabler!
+Som i knappe-oppgaven trenger vi en uendelig lÃ¥kke og `if`-tester,
+men i denne oppgaven skal vi ogsÃ¥ bruke variabler!
 
-Variabler blir i programmering brukt for å lagre data slik at man kan bruke det senere og gjøre kode lettere å lese.
-Måten man *deklarerer* et variabel er ved å sette et navn lik et utrykk, for eksempel `navn = "Bob"`.
+Variabler blir i programmering brukt for Ã¥ lagre data slik at man kan bruke det senere og gjÃ¥re kode lettere Ã¥ lese.
+MÃ¥ten man *deklarerer* et variabel er ved Ã¥ sette et navn lik et utrykk, for eksempel `navn = "Bob"`.
 
-I denne oppgaven bruker vi da `pin 0` på microbiten til å hente data fra lys-sensoren vår.
-For å bruke denne dataen lager vi et variabel `lysstyrke` og setter det lik `pin0.read_analog()`.
-Det dette gjør er å sette `lysstyrke` til den analoge verdien av pin 0.
+I denne oppgaven bruker vi da `pin 0` pÃ¥ microbiten til Ã¥ hente data fra lys-sensoren vÃ¥r.
+For Ã¥ bruke denne dataen lager vi et variabel `lysstyrke` og setter det lik `pin0.read_analog()`.
+Det dette gjÃ¥r er Ã¥ sette `lysstyrke` til den analoge verdien av pin 0.
 
-Nå kan vi bruke denne verdien til å sjekke om det kommer lys inn i sensoren!
-Sjekk om lysstyrke er større enn 512, og vis så et bilde med `display.show(...)`, ellers (med `else`) vis et annet bilde.
+NÃ¥ kan vi bruke denne verdien til Ã¥ sjekke om det kommer lys inn i sensoren!
+Sjekk om lysstyrke er stÃ¥rre enn 512, og vis sÃ¥ et bilde med `display.show(...)`, ellers (med `else`) vis et annet bilde.
 
-`pin0.read_analog()` vil gi en verdi fra 0 til 1024, så prøv å forandre på verdien og sjekk hvordan dette endrer sensitiviteten på lyssensoren!
+`pin0.read_analog()` vil gi en verdi fra 0 til 1024, sÃ¥ prÃ¥v Ã¥ forandre pÃ¥ verdien og sjekk hvordan dette endrer sensitiviteten pÃ¥ lyssensoren!
