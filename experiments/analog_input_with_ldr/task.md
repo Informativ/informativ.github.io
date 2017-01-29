@@ -28,6 +28,7 @@ if testen-din:
   kode-som-skal-skje
 else:
   kode-som-skal-skje
+```
 
 
 `pin0.read_analog()` vil gi en verdi fra 0 til 1024, så pråv å forandre på verdien og sjekk hvordan dette endrer sensitiviteten på lyssensoren!
