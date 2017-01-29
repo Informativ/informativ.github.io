@@ -5,6 +5,7 @@ I denne oppgaven skal vi se på hvordan man kan bruke knapper til å interagere 
 ## Hva trenger du?
 
 For å fullføre denne oppgaven trenger du:
+
 * 2 knapper
 * 4 han til hun kabler
 
