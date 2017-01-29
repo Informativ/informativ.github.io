@@ -1,7 +1,7 @@
-# Høytaler
+# Høyttaler
 
 I denne oppgaven skal vi ekspandere [knappe-oppgaven](https://informativ.github.io/microbit-oppgaver/experiments/button_intro/task).
-Forskjellen her er at vi skal få en høytaler til å spille av lyd når vi trykker på knappene i steden for å vise noe på skjermen til microbiten.
+Forskjellen her er at vi skal få en høyttaler til å spille av lyd når vi trykker på knappene.
 
 ## Hva trenger vi?
 TODO

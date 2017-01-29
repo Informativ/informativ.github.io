@@ -1,15 +1,15 @@
 # Viftemotor
 
-I denne oppgave skal vi bruke en motor for å kjøre en vifte.
+I denne oppgaven skal vi bruke en motor for å kjøre en vifte.
 
 ## Hva trengs?
 TODO
 
 ## Hvordan
-Siden vi bare skal ha en konstant kjørende motor i denne oppgaven trenger vi bare et variabel som holder på tilstanden til motoren og noen løkker.
+Siden vi skal ha en konstant kjørende motor i denne oppgaven trenger vi kun en variabel som kan ta vare på tilstanden til motoren og et par løkker.
 
-Først må vi lage et variabel som holder på den nåværende tilstanden til motoren. Plasser denne utenfor den uendelige løkka og deklarer den til å være `0`.
-Hadde vi ikke plassert den utenfor løkka ville vi endt opp med at motoren sto stille hele tiden!
+Først må vi lage en variabel som holder på den nåværende tilstanden til motoren. Plasser denne over den uendelige løkka og sett den til å være `0`.
+Hadde ikke variabelen vår vært utenfor løkken ville motorens hastighet blitt satt til null hver gang vi kjører gjennom (det ønsker vi ikke).
 
 Videre skal vi lage to løkker slik at vi får vekslende signal.
 Med dette mener vi at duty skal variere opp og ned mellom `0` og `1024`.
