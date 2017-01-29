@@ -13,7 +13,7 @@ Hadde vi ikke plassert den utenfor løkka ville vi endt opp med at motoren sto s
 
 Videre skal vi lage to løkker slik at vi får vekslende signal.
 Med dette mener vi at duty skal variere opp og ned mellom `0` og `1024`.
-Inne i disse løkene skal vi **inkrementere** (`variabel += 1`) og **dekrementere** (`variabel -= 1`) tilstands-variablet vårt,
+Inne i disse løkene skal vi *inkrementere* (`variabel += 1`) og *dekrementere* (`variabel -= 1`) tilstands-variablet vårt,
 og deretter skrive til outputen vår ved hjelp av `pin0.write_analog(variabel-navn)`.
 
 Du skal nå ha en fin liten vifte!
