@@ -8,5 +8,6 @@
 * [Motor](/experiments/motor/task)
 * [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
 
-## Eksterne hjelpemiddler
+## Hjelpemiddler
+* [Python hjelp](/python_hjelp)
 * [microbit micropython dokumentasjon](http://microbit-micropython.readthedocs.io/en/latest/)
