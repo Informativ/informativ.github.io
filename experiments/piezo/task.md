@@ -9,7 +9,9 @@ Forskjellen her er at vi skal få en høyttaler til å spille av lyd når vi try
 
 ## Hvordan
 Bruk knappe-oppgaven som base og fjern alt som har med `display` å gjøre.
-Bytt dette ut med `music.pitch(frekvens, tid-i-ms)`. Du kan nå spille toner med knappene!
+Bytt dette ut med `music.pitch(frekvens, tid-i-ms)`.
+Deretter må du importere `music`. Dette gjøres ved å skrive `import music` på linja under `from microbit import *`.
+Du kan nå spille toner med knappene!
 
 Eksempelvis kan du bruke frekvensene `440` og `880` for å spille to A-er som er en oktav mellom hverandre.
 Hvis du vil se flere frekvenser kan du sjekke ut [denne nettsiden](http://www.phy.mtu.edu/~suits/notefreqs.html).
