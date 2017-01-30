@@ -3,7 +3,12 @@
 I denne oppgaven skal vi bruke en motor for å kjøre en vifte.
 
 ## Hva trengs?
-TODO
+* 1 Transistor
+* 1 2.2k Ohm resistor
+* 1 Terminal Tilkobling
+* 1 Motor
+* 3 Han til hun kabel
+* 1 Vifteblad
 
 ## Hvordan
 Siden vi skal ha en konstant kjørende motor i denne oppgaven trenger vi kun en variabel som kan ta vare på tilstanden til motoren og et par løkker.
