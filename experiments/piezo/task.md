@@ -4,7 +4,8 @@ I denne oppgaven skal vi ekspandere [knappe-oppgaven](https://informativ.github.
 Forskjellen her er at vi skal få en høyttaler til å spille av lyd når vi trykker på knappene.
 
 ## Hva trenger vi?
-TODO
+* 1 Piezo Element
+* 2 Han til hun kabel
 
 ## Hvordan
 Bruk knappe-oppgaven som base og fjern alt som har med `display` å gjøre.
