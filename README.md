@@ -6,6 +6,7 @@
 * [Høytaler](/experiments/piezo/task)
 * [Lyssensor](/experiments/analog_input_with_ldr/task)
 * [Motor](/experiments/motor/task)
+* [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
 
 ## Eksterne hjelpemiddler
 * [microbit micropython dokumentasjon](http://microbit-micropython.readthedocs.io/en/latest/)
