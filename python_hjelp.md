@@ -2,6 +2,7 @@
 På denne siden kan du finne diverse informasjon som kan hjelpe deg når du skriver oppgavene!
 
 ## Syntax
+
 ### Indentering
 I motsetning til mange andre språk så bruker python **indentering** for å holde styr på **blokker**.
 Dette betyr at indentering er ekstremt viktig når du skriver python kode.
