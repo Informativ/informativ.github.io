@@ -7,5 +7,6 @@
 * [Lyssensor](/experiments/analog_input_with_ldr/task)
 * [Motor](/experiments/motor/task)
 
-## Eksterne hjelpemiddler
+## Hjelpemiddler
+* [Python hjelp](/python_hjelp)
 * [microbit micropython dokumentasjon](http://microbit-micropython.readthedocs.io/en/latest/)
