@@ -1,6 +1,6 @@
 # Velkommen
 
-Velkommen til skolebesøk -- Forside stuff med info om microbit her
+Velkommen til skolebesøk -- Her finner du oppgaver for micro:bit
 
 # Oppgaver
 * [Knapper](https://informativ.github.io/microbit-oppgaver/experiments/button_intro/task)
