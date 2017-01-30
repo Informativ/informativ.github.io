@@ -2,10 +2,10 @@
 
 
 ## Oppgaver
-* [Knapper](https://informativ.github.io/experiments/button_intro/task)
-* [Høytaler](https://informativ.github.io/experiments/piezo/task)
-* [Lyssensor](https://informativ.github.io/experiments/analog_input_with_ldr/task)
-* [Motor](https://informativ.github.io/experiments/motor/task)
+* [Knapper](/experiments/button_intro/task)
+* [Høytaler](/experiments/piezo/task)
+* [Lyssensor](/experiments/analog_input_with_ldr/task)
+* [Motor](/experiments/motor/task)
 
 ## Eksterne hjelpemiddler
 * [microbit micropython dokumentasjon](http://microbit-micropython.readthedocs.io/en/latest/)
