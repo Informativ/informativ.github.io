@@ -6,7 +6,9 @@
 * [Høytaler](/experiments/piezo/task)
 * [Lyssensor](/experiments/analog_input_with_ldr/task)
 * [Motor](/experiments/motor/task)
+* [Dimmer](/experiments/dimmer/task)
 * [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
+
 
 ## Hjelpemiddler
 * [Python hjelp](/python_hjelp)

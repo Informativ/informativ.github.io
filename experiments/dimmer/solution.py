@@ -4,10 +4,7 @@ lys_aktivt = False
 
 while True:
     if pin0.is_touched():
-        if lys_aktivt:
-            lys_aktivt = False
-        else:
-            lys_aktivt = True
+        lys_aktivt = not lys_aktivt
     
     if lys_aktivt:
         lys_styrke = pin1.read_analog()
