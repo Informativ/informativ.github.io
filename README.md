@@ -9,6 +9,7 @@
 5. [Motor](/experiments/motor/task)
 6. [Dimmer](/experiments/dimmer/task)
 7. [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
+8. [8-ball](/experiments/8ball)
 
 
 ## Hjelpemiddler
