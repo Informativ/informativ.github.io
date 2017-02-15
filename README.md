@@ -4,6 +4,7 @@
 ## Oppgaver
 1. [Knapper](/experiments/button_intro/task)
 * [Høytaler](/experiments/piezo/task)
+* [Musikk](/experiments/musikk/task)
 * [Lyssensor](/experiments/analog_input_with_ldr/task)
 * [Motor](/experiments/motor/task)
 * [Dimmer](/experiments/dimmer/task)
