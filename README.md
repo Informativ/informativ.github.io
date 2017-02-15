@@ -2,7 +2,7 @@
 
 
 ## Oppgaver
-1. [Knapper](/experiments/button_intro/task)
+* [Knapper](/experiments/button_intro/task)
 * [Høytaler](/experiments/piezo/task)
 * [Lyssensor](/experiments/analog_input_with_ldr/task)
 * [Motor](/experiments/motor/task)
