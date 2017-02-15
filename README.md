@@ -3,12 +3,12 @@
 
 ## Oppgaver
 1. [Knapper](/experiments/button_intro/task)
-* [Høytaler](/experiments/piezo/task)
-* [Musikk](/experiments/musikk/task)
-* [Lyssensor](/experiments/analog_input_with_ldr/task)
-* [Motor](/experiments/motor/task)
-* [Dimmer](/experiments/dimmer/task)
-* [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
+2. [Høytaler](/experiments/piezo/task)
+3. [Musikk](/experiments/musikk/task)
+4. [Lyssensor](/experiments/analog_input_with_ldr/task)
+5. [Motor](/experiments/motor/task)
+6. [Dimmer](/experiments/dimmer/task)
+7. [Akselerometer styrt mottor](/experiments/accelerometer_motor_speed/task)
 
 
 ## Hjelpemiddler
