@@ -10,6 +10,7 @@
 6. [Dimmer (3 i bok)](/experiments/dimmer/task)
 7. [Akselerometer styrt mottor (5 i bok)](/experiments/accelerometer_motor_speed/task)
 8. [8-ball (ikke i bok. Trenger ikke koble opp noe)](/experiments/8ball/task)
+9. [Microbot (ikke i bok. Trenger ikke koble opp noe)](/experiments/microbot/task)
 
 
 ## Hjelpemiddler
