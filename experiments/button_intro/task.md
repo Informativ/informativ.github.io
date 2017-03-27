@@ -16,7 +16,7 @@ For å fullføre denne oppgaven trenger vi kun å bruke en uendelig løkke (`whi
 
 ``` python
 
-import microbit
+from microbit import microbit 
 
 while True:
 	if test:
