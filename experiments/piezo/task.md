@@ -8,7 +8,8 @@ Forskjellen her er at vi skal få en høyttaler til å spille av lyd når vi try
 * 2 Han til hun kabel
 
 ## Hvordan
-Først må musikk importeres. Skriv `import music` på linja under `from microbit import *`.
+Først må musikk importeres.
+Skriv `import music` på linja under `from microbit import *`.
 
 Bruk så knappe-oppgaven som base og fjern alt som har med `display` å gjøre, og bytt dette ut med `music.pitch(frekvens, tid-i-ms)`.
 
