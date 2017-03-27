@@ -12,7 +12,7 @@ Først må musikk importeres. Skriv `import music` på linja under `from microbi
 
 Bruk så knappe-oppgaven som base og fjern alt som har med `display` å gjøre, og bytt dette ut med `music.pitch(frekvens, tid-i-ms)`.
 
-
+<br>
 Du kan nå spille toner med knappene!
 
 Eksempelvis kan du bruke frekvensene `440` og `880` for å spille to A-er som er en oktav mellom hverandre.
