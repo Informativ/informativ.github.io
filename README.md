@@ -17,3 +17,4 @@
 ## Hjelpemiddler
 * [Python hjelp](/python_hjelp)
 * [microbit micropython dokumentasjon](http://microbit-micropython.readthedocs.io/en/latest/)
+* [Her skal du skrive kode](http://python.microbit.org/editor.html) 
