@@ -20,7 +20,7 @@ Deretter trenger du tre kommandoer for å lese informasjon fra sensorene. Disse 
 <br><br>
 
 For å sjekke om en sensor er aktiv kan du for eksempel skrive
-``` processing
+``` python
 if pin13.read_digital() is 0:
   "kode du vil gjøre om høyre sensor er over teipen"
 ```
