@@ -14,15 +14,14 @@ For å fullføre denne oppgaven trenger du:
 For å fullføre denne oppgaven trenger vi kun å bruke en uendelig løkke (`while True`) og if tester (`if tingen-du-vil-sjekke`), slik:
 
 
-``` python
-
+{% highlight python %}
 from microbit import microbit
 
 while True:
 	if test:
 		det-som-skjer-hvis-test-er-sant
+{% endhighlight %}
 
-```
 
 I tillegg til dette må vi finne ut om en av knappene våre er trykket på!
 Da må vi bruke `button_a.is_pressed()` og `button_b.is_pressed()` sammen med `if`-testen.
