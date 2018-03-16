@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/css/style.css?v=9bc4e48bbf92966921aac70b2a19f78ac84674b8">
+		<link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<title>informativ.github.io by Informativ</title>
+	</head>
+
+	<body>
+		<div id="container">
+			<div class="inner">
+
+				<header>
+					<h1>Velkommen!</h1>
+				</header>
+
+				<hr>
+				<section id="main_content">
+					<h1 id="python-basics--hjelpemiddler">Python Basics &amp; Hjelpemiddler</h1>
+<p>På denne siden kan du finne diverse informasjon som kan hjelpe deg når du skriver oppgavene!</p>
+
+<h2 id="syntax">Syntax</h2>
+<ul>
+  <li>While-løkke:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="k">while</span> <span class="n">test</span><span class="p">:</span>
+        <span class="n">kode</span><span class="o">-</span><span class="n">som</span><span class="o">-</span><span class="n">kj</span><span class="err">ø</span><span class="n">res</span><span class="o">-</span><span class="n">s</span><span class="err">å</span><span class="o">-</span><span class="n">lenge</span><span class="o">-</span><span class="s">"test"</span><span class="o">-</span><span class="n">er</span><span class="o">-</span><span class="n">sann</span></code></pre></figure>
+
+<ul>
+  <li>Array med tekst:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="n">mangeOrd</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Hei"</span><span class="p">,</span> <span class="s">"kanskje"</span><span class="p">,</span> <span class="s">"ja"</span><span class="p">,</span> <span class="s">"nei"</span><span class="p">,</span> <span class="s">"vet ikke"</span><span class="p">]</span></code></pre></figure>
+
+<ul>
+  <li>If-setning:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="k">if</span> <span class="n">test</span><span class="p">:</span>
+        <span class="n">det</span><span class="o">-</span><span class="n">som</span><span class="o">-</span><span class="n">skal</span><span class="o">-</span><span class="n">skje</span><span class="o">-</span><span class="n">hvis</span><span class="o">-</span><span class="s">"test"</span><span class="o">-</span><span class="n">er</span><span class="o">-</span><span class="n">sann</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">det</span><span class="o">-</span><span class="n">som</span><span class="o">-</span><span class="n">skal</span><span class="o">-</span><span class="n">skje</span><span class="o">-</span><span class="n">hvis</span><span class="o">-</span><span class="s">"test"</span><span class="o">-</span><span class="n">er</span><span class="o">-</span><span class="n">usann</span></code></pre></figure>
+
+<h3 id="indentering">Indentering</h3>
+<p>I motsetning til mange andre språk så bruker python <strong>indentering</strong> for å holde styr på <strong>blokker</strong>.
+Dette betyr at indentering er ekstremt viktig når du skriver python kode.</p>
+
+<p>Eksempel:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="k">if</span> <span class="n">test1</span><span class="p">:</span>
+        <span class="n">uttrykk1</span>
+        <span class="n">uttrykk2</span>
+
+    <span class="k">if</span> <span class="n">test2</span><span class="p">:</span>
+        <span class="n">uttrykk3</span>
+    <span class="n">uttrykk4</span></code></pre></figure>
+
+<p>I dette eksempelet vil uttrykk 1 og 2 bare kjøre hvis test1 er sann.
+uttrykk 3 vil derimot bare kjøre hvis test2 er sann, men uttrykk4 vil alltid kjøre! Vi kan altså se at uttrykk1 og uttrykk2 “tilhører” test1 fordi de er satt hakket innenfor test1. Uttrykk3 hører til test2, mens uttrykk4 ikke gjør det, siden den ikke er et hakk innenfor test2.</p>
+
+<h3 id="typer">Typer</h3>
+<p>Python er et såkalt dymaisk typet språk.
+Dette betyr at vi ikke trenger å spesifisere hvilken type en variabel er.
+For å definere en variabel trenger vi bare å skrive <code class="highlighter-rouge">navn = verdi</code>.
+Det trengs ikke noe <code class="highlighter-rouge">int</code> eller lignende. Hvilken type verdien er finner python ut selv!</p>
+
+<p>Vær obs på at hvis du vil ha et desimaltall tilbake når du deler, så må <strong>divisoren</strong> være et desimaltall.</p>
+
+<h2 id="nyttige-funskjoner">Nyttige funskjoner</h2>
+<p>Her er noen nyttige funksjoner som du kan få bruk for når du skriver python:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">str(verdi)</code> - Denne funksjonen gjør en verdi om til en streng.
+Dette er spesielt nyttig hvis man har lyst til å skrive ut et tall.</li>
+  <li><code class="highlighter-rouge">len(objekt)</code> - Denne funksjonen gir lengden av et objekt.
+For eksemepel hvor mange bokstaver en streng inneholder, eller antall elementer i en array.</li>
+  <li><code class="highlighter-rouge">random.choice(arrayobjekt)</code> - Denne funksjonen gir oss et tilfeldig objekt fra en array. <code class="highlighter-rouge">arrayobjekt</code> kan for eksempel byttes ut med <code class="highlighter-rouge">mangeOrd</code> som er fra <strong>Syntax</strong>.</li>
+  <li><code class="highlighter-rouge">display.show("min melding")</code> - Viser en scrollende tekst på LED’ene til micro:bit’en.</li>
+  <li><code class="highlighter-rouge">displar.clear()</code> - Fjerner eventuelle bilder som er på micro:bit’en.</li>
+  <li><code class="highlighter-rouge">sleep(millisekunder)</code> - Koden venter i angitte millisekunder før den fortsetter å kjøre.</li>
+</ul>
+
+				</section>
+
+				<footer>
+					<img src="/assets/images/MN_IFI_Segl_A.png" style="margin-bottom:15px;width:80%;height:80%;">
+					</br>
+					
+					informativ.github.io is maintained by <a href="http://github.com/Informativ">Informativ</a><br>
+					
+					This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+				</footer>
+
+			</div>
+		</div>
+
+		
+	</body>
+</html>
