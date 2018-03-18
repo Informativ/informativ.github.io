@@ -10,6 +10,8 @@ I denne oppgaven skal vi bruke en motor for å kjøre en vifte.
 * 3 Han til hun kabel
 * 1 Vifteblad
 
+![Oppsett](/assets/images/experiment_4.png?raw=true)
+
 ## Hvordan
 Siden vi skal ha en konstant kjørende motor i denne oppgaven trenger vi kun en variabel som kan ta vare på tilstanden til motoren og et par løkker.
 
