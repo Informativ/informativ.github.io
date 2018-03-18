@@ -9,6 +9,8 @@ I denne oppgaven skal vi lage en dimmer, akkurat slik som man har i veggen hjemm
 * 1 Knapp
 * 7 Han til hun kabler
 
+![Oppsett](/assets/images/experiment_3.png?raw=true)
+
 ## Hvordan
 For å løse denne oppgaven trenger vi noen `if`-er inne i en uendelig løkke.
 Disse `if`-ene skal sjekke to ting:
