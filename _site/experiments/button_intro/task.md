@@ -9,6 +9,8 @@ For å fullføre denne oppgaven trenger du:
 * 2 knapper
 * 4 han til hun kabler
 
+![Oppsett](/assets/images/experiment_1.png?raw=true)
+
 ## Hvordan
 
 For å fullføre denne oppgaven trenger vi kun å bruke en uendelig løkke (`while True`) og if tester (`if tingen-du-vil-sjekke`), slik:

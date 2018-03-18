@@ -15,6 +15,8 @@ eller hvor mye tilt en gjenstand har.
 * 3 Han til hun kabel
 * 1 Vifteblad
 
+![Oppsett](/assets/images/experiment_5.png?raw=true)
+
 ## Hvordan
 For å løse denne oppgaven må vi som sagt i introduksjonen bruke **akselerometeret** til microbiten.
 Dette kan vi gjøre med `accelerometer` modulen.
