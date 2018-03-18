@@ -9,6 +9,8 @@ men i stedet for å bruke knapper skal vi bruke lys for å bytte bildet på skje
 * 1 10k Ohm resistor
 * 3 han til hun kabler
 
+![Oppsett](/assets/images/experiment_2.png?raw=true)
+
 ## Hvordan
 
 Som i knappe-oppgaven trenger vi en uendelig løkke og `if`-tester,
