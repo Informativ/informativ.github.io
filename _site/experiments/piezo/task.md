@@ -7,7 +7,7 @@ Forskjellen her er at vi skal få en høyttaler til å spille av lyd når vi try
 * 1 Piezo Element
 * 2 Han til hun kabel
 
-![Oppsett](assets/images/experiment_6.png?raw=true)
+![Oppsett](/assets/images/experiment_6.png?raw=true)
 
 ## Hvordan
 Først må musikk importeres. <br>
