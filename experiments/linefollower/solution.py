@@ -1,4 +1,4 @@
-import microbit import *
+from microbit import *
 
 while True:
     if pin13.read_digital() is 0:
