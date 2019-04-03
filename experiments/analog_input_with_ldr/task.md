@@ -30,9 +30,9 @@ Nå kan vi bruke denne verdien til å sjekke om det kommer lys inn i sensoren!
 Sjekk om lysstyrke er større enn 512, og er den det så vis et bilde med `display.show(...)`, hvis ikke (med `else`) vis et annet bilde. 
 {% highlight python %}
 if testen-din:
-  kode-som-skal-skje
+	kode-som-skal-skje
 else:
-  kode-som-skal-skje
+	kode-som-skal-skje
 {% endhighlight %}
 
 
