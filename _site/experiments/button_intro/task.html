@@ -4,12 +4,12 @@
 		<meta charset='utf-8'>
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 		<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="/assets/css/style.css?v=9bc4e48bbf92966921aac70b2a19f78ac84674b8">
+		<link rel="stylesheet" href="/assets/css/style.css?v=28dbfb9eae680896d7b737cceec0c04fa0642d4c">
 		<link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<title>informativ.github.io by Informativ</title>
+		<title>informativ.github.io by daniejoh</title>
 	</head>
 
 	<body>
@@ -35,6 +35,8 @@
   <li>4 han til hun kabler</li>
 </ul>
 
+<p><img src="/assets/images/experiment_1.png?raw=true" alt="Oppsett" /></p>
+
 <h2 id="hvordan">Hvordan</h2>
 
 <p>For å fullføre denne oppgaven trenger vi kun å bruke en uendelig løkke (<code class="highlighter-rouge">while True</code>) og if tester (<code class="highlighter-rouge">if tingen-du-vil-sjekke</code>), slik:</p>
@@ -45,11 +47,22 @@
 	<span class="k">if</span> <span class="n">test</span><span class="p">:</span>
 		<span class="n">det</span><span class="o">-</span><span class="n">som</span><span class="o">-</span><span class="n">skjer</span><span class="o">-</span><span class="n">hvis</span><span class="o">-</span><span class="n">test</span><span class="o">-</span><span class="n">er</span><span class="o">-</span><span class="n">sant</span></code></pre></figure>
 
+<p>Så for eksempel (men ikke svar på oppgaven) vil denne koden sjekke om knapp A er trykket og så vise “Knapp A er trykket!”.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="n">microbit</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+	<span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span> <span class="c"># test</span>
+		<span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s">"Knapp A er trykket!"</span><span class="p">)</span> <span class="c"># det-som-skjer-hvis-test-er-sant</span></code></pre></figure>
+
 <p>I tillegg til dette må vi finne ut om en av knappene våre er trykket på!
 Da må vi bruke <code class="highlighter-rouge">button_a.is_pressed()</code> og <code class="highlighter-rouge">button_b.is_pressed()</code> sammen med <code class="highlighter-rouge">if</code>-testen.</p>
 
 <p>Men hvordan kan vi få bekreftelse på om dette faktisk har skjedd?
-Jo da har microbiten en måte å vise “bilder” på! Bruk <code class="highlighter-rouge">display.show(...)</code> og et av bildene du <a href="http://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html">finner i listen her</a>.</p>
+Jo da har microbiten en måte å vise “bilder” på! Bruk <code class="highlighter-rouge">display.show(...)</code> og et av bildene du <a href="http://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html">finner i listen her</a>.
+Så for eksempel:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span></code></pre></figure>
 
 <p>Til slutt, i enden av løkka, kan vi gjøre slik at disse bildene bare vises når knappene faktisk holdes nede.
 Simpelthen legg til <code class="highlighter-rouge">display.clear()</code> helt i bunnen av løkken, på nivå med if-testen, slik:</p>
@@ -60,7 +73,7 @@ Simpelthen legg til <code class="highlighter-rouge">display.clear()</code> helt 
 <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
 	<span class="k">if</span> <span class="n">test</span><span class="p">:</span>
 		<span class="n">det</span><span class="o">-</span><span class="n">som</span><span class="o">-</span><span class="n">skjer</span><span class="o">-</span><span class="n">hvis</span><span class="o">-</span><span class="n">test</span><span class="o">-</span><span class="n">er</span><span class="o">-</span><span class="n">sant</span>
-
+		<span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span> <span class="c"># gjoer at den ikke clearer bildet med en gang</span>
 	<span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
 
 </code></pre></div></div>
@@ -73,7 +86,7 @@ Simpelthen legg til <code class="highlighter-rouge">display.clear()</code> helt 
 					<img src="/assets/images/MN_IFI_Segl_A.png" style="margin-bottom:15px;width:80%;height:80%;">
 					</br>
 					
-					informativ.github.io is maintained by <a href="http://github.com/Informativ">Informativ</a><br>
+					informativ.github.io is maintained by <a href="https://github.com/daniejoh">daniejoh</a><br>
 					
 					This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
 				</footer>

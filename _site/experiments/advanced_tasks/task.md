@@ -1,0 +1,5 @@
+1. [8-ball (ikke i bok. Trenger ikke koble opp noe)](/experiments/8ball/task)
+2. [Microbot (ikke i bok. Trenger ikke koble opp noe)](/experiments/microbot/task)
+3. [Radio (ikke i bok. Trenger ikke koble opp noe)](/experiments/radio/task)
+4. [USB (ikke i bok. Trenger ikke koble opp noe)](/experiments/uart/task)
+5. [Linjefølger (ikke i bok. Trenger ikke koble)](/experiments/linefollower/task)
